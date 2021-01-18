@@ -1,55 +1,91 @@
-label.thc
-{
-    float: left;
-}
-
-label.dsc
-{
-    float: right;
-}
-
 *
 {
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav
+{
+    background: #3f51b5;
+    height: 80px;
+    width: 100%;
+}
+
+label.name
+{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul
+{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a
+{
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a.active, nav ul li a:hover
+{
+    background: darkblue;
+    transition: .5s;
 }
 
 body
 {
-    background: white;
-    box-sizing: border-box;
+    text-align: center;
+}
+
+table
+{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 30%;
     color: black;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-div.head
+th
 {
-    background: #3F51B5;
-    text-align: center;
+    text-align: left;
+}
+tr, td, th 
+{
+    font-family: sukhumvit;
+    color: black;
 }
 
-div.head ul
+td, th 
 {
-    display: inline-flex;
-    list-style: none;
-    color: white;
-}
-
-div.head ul li a
-{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+    font-family: sukhumvit;
+    padding: 8px;
     font-size: 15pt;
 }
 
-div.head ul li a.log
+tr:nth-child(even)
 {
-    float: right;
+    background-color: white;
 }
 
-div.head ul li img
+tr:nth-child(odd)
 {
-    height: 100px;
-    width: 100px;
+    background-color: white;
 }
