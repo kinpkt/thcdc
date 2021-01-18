@@ -1,0 +1,55 @@
+label.thc
+{
+    float: left;
+}
+
+label.dsc
+{
+    float: right;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background: white;
+    box-sizing: border-box;
+    color: black;
+    text-align: center;
+}
+
+div.head
+{
+    background: #3F51B5;
+    text-align: center;
+}
+
+div.head ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+div.head ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+div.head ul li a.log
+{
+    float: right;
+}
+
+div.head ul li img
+{
+    height: 100px;
+    width: 100px;
+}

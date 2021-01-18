@@ -1,0 +1,10 @@
+@font-face
+{
+  font-family: sukhumvit;
+  src: url('../Fonts/SukhumvitText.ttf');
+}
+
+*
+{
+  font-family: sukhumvit;
+}
