@@ -1,3 +1,4 @@
+<link rel="icon" href="../Images/thailandcube.png">
 <link rel="stylesheet" href="../CSS/index.css">
 <body>
 <?php
