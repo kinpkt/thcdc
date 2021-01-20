@@ -1,3 +1,9 @@
+.home
+{
+    background: darkblue;
+    border-radius: 3px;
+}
+
 body
 {
     text-align: center;
