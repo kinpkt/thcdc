@@ -2,46 +2,115 @@
 {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
-.menu
+red
 {
-    background: #3F51B5;
+    color: #A51931;
+}
+
+wh
+{
+    color: #F4F5F8;
+}
+
+bl
+{
+    color: #2D2A4A;
+}
+
+body
+{
+    background-color: #08488C;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'sukhumvit';
+    text-align: center;
+    color: white;
+}
+
+.menu-bar
+{
+    background: #1C74D4;
     text-align: center;
 }
 
-.menu label.name
-{
-    color: white;
-    float: left;
-    font-weight: bold;
-    font-size: 35px;
-    padding: 15px;
-}
-
-.menu ul
+.menu-bar ul
 {
     display: inline-flex;
     list-style: none;
+    width: 100%;
     color: white;
 }
 
-.menu ul li
+.menu-bar ul li
 {
     width: 120px;
     margin: 15px;
     padding: 15px;
 }
 
-.menu ul li a
+.menu-bar ul li a
 {
     text-decoration: none;
     color: white;
 }
 
-.menu ul li a:hover
+.menu-bar ul li h1
+{
+    text-align: center;
+}
+
+.poster
+{
+    width: 7%;
+    height: 7%;
+}
+
+.sub-menu
+{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu
+{
+    display: block;
+    position: absolute;
+    background: #1C74D4;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menu-bar ul li:hover .sub-menu ul
+{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu ul li:last-child
+{
+    border-bottom: none;
+}
+
+.flag
+{
+    height: 20%;
+    width: 20%;
+}
+
+.menu-bar ul li:hover
 {
     background: darkblue;
-    border-radius: 3px !important;
+    border-radius: 3px;
 }
